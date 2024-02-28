@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek-Portfolio</title>
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- typewriting effect cdn link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark"
+            style="background: linear-gradient(to right, rgb(1, 80, 129), black);">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="digitalproducts.html">Digital Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#aboutus">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contactus">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div>Hi I am VIVEK</div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 class="mt-4 mb-4 text-white text-center">Services</h1>
+            <div class="row">
+                <!-- Web Development -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card service-card text-center" data-aos="flip-left" data-aos-duration="2000">
+                        <img class="mx-auto" width="50px" height="50px" src="images/webdevelopment.png"alt="Web Development Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">
+                                Creating unique websites to help you stand out online – from stylish portfolios to
+                                powerful e-commerce sites.
+                            </p><br>
+                            <a href="webdev.html" class="btn btn-primary">For More Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video Editing -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card service-card text-center" data-aos="flip-right" data-aos-duration="2000">
+                        <img class="mx-auto" width="50px" height="50px" src="images/videoedit.png"
+                            alt="Video Editing Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Video Editing</h5>
+                            <p class="card-text">Professional video editing for YouTube content, enhancing visual appeal
+                                and ensuring your message stands out, whether it's short-form or full-length.
+                                <br>
+                                <a href="videoedit.html" class="btn btn-primary">For More Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Graphic Design -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card service-card text-center" data-aos="flip-left" data-aos-duration="2000">
+                        <img class="mx-auto" width="50px" height="50px" src="images/graphicdesign.png"
+                            alt="Graphic Design Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Photo Editing & Design</h5>
+                            <p class="card-text">Comprehensive photo editing services, including creating eye-catching
+                                YouTube thumbnails, intricate photo manipulations, and logo designs.</p>
+                            <a href="photoedit.html" class="btn btn-primary">For More Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Writing -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card service-card text-center" data-aos="flip-right" data-aos-duration="2000">
+                        <img class="mx-auto" width="50px" height="50px" src="images/contentwriting.png"
+                            alt="Content Writing">
+                        <div class="card-body">
+                            <h5 class="card-title"> Tech Content Writing</h5>
+                            <p class="card-text">Delivering compelling tech content for YouTube videos – stay ahead with
+                                the latest tech news, trends, and insights.
+                            </p>
+                            <a href="content.html" class="btn btn-primary">For More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="aboutus">
+        <h1 class="text-center text-white">Skills</h1>
+        <div class="programminglang text-center">
+            <h3 class="text-center">Programming Languages & Technologies</h3>
+            <img src="images/html.png" data-aos="fade-down-right" data-aos-duration="2000" alt="HTML">
+            <img src="images/css.png" data-aos="fade-down-left" data-aos-duration="2000" alt="CSS">
+            <img src="images/javascript.png" data-aos="fade-down-right" data-aos-duration="2000" alt="Javascript">
+            <img src="images/bootstrap.png" data-aos="fade-down-left" data-aos-duration="2000" alt="Bootstrap">
+            <img src="images/reactjs.png" data-aos="fade-down-right" data-aos-duration="2000" alt="React.Js">
+            <img src="images/nodejs.png" data-aos="fade-down-left" data-aos-duration="2000" alt="Node.Js">
+            <img src="images/expressjs.png" data-aos="fade-down-right" data-aos-duration="2000" alt="Express.Js">
+            <img src="images/python.png" data-aos="fade-down-left" data-aos-duration="2000" alt="Python">
+            <img src="images/c.png" data-aos="fade-down-right" data-aos-duration="2000" alt="C">
+            <img src="images/mongodb.png" data-aos="fade-down-left" data-aos-duration="2000" alt="MongoDB">
+            <img src="images/dart.png" data-aos="fade-down-right" data-aos-duration="2000" alt="Dart">
+        </div>
+        <div class="softwares text-center">
+            <h3 class="text-center">Softwares & Tools</h3>
+            <img src="images/photoshop.png" data-aos="zoom-in" data-aos-duration="2000" alt="Photoshop">
+            <img src="images/msword.png" data-aos="zoom-out" data-aos-duration="2000" alt="MS Word">
+            <img src="images/msexcel.png" data-aos="zoom-in" data-aos-duration="2000" alt="MS Excel">
+            <img src="images/msppt.png" data-aos="zoom-out" data-aos-duration="2000" alt="MS PowerPoint">
+            <img src="images/davinciresolve.png" data-aos="zoom-in" data-aos-duration="2000" alt="DavinciResolve">
+            <img src="images/kdenlive.png" data-aos="zoom-out" data-aos-duration="2000" alt="Kdenlive">
+            <img src="images/blender.png" data-aos="zoom-in" data-aos-duration="2000" alt="Blender">
+            <img src="images/xd.png" data-aos="zoom-out" data-aos-duration="2000" alt="Adobe XD">
+            <img src="images/figma.png" data-aos="zoom-in" data-aos-duration="2000" alt="Figma">
+        </div>
+        <div class="learning text-center">
+            <h3 class="text-center">Learning in progress</h3>
+            <img src="images/aftereffect.png" data-aos="zoom-in-up" data-aos-duration="2000" alt="After Effects">
+            <img src="images/flutter.png" data-aos="zoom-in-down" data-aos-duration="2000" alt="Flutter">
+            <img src="images/premierepro.png" data-aos="zoom-in-up" data-aos-duration="2000" alt="Premiere Pro">
+        </div>
+        <div class="text-center">
+            <div class="output" id="output">
+                <h3 class="cursor"></h3>
+                <p></p>
+            </div>
+            <div class="container">
+                <table class="d-flex align-items-center justify-content-center table mx-auto d-block" data-aos="flip-up"
+                    data-aos-duration="2000">
+                    <tr>
+                        <td>Average Typing Speed <i>(Based on 10 tests)</i></td>
+                        <td>47 <i>Words Per Minute</i></td>
+                    </tr>
+                    <tr>
+                        <td>Maximum Speed</td>
+                        <td>57 <i>Words Per Minute</i></td>
+                    </tr>
+                    <tr>
+                        <td>Speed Tested Platform</td>
+                        <td>TypeRacer</td>
+                    </tr>
+                    <tr>
+                        <td>Tested on</td>
+                        <td>January 01 2024</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="text-center">
+            <h3>
+                <u>Languages known</u>
+            </h3>
+            <div class="text-center" data-aos="flip-down" data-aos-duration="2000">
+                <h5 style="color: rgb(11, 188, 129);">Communication</h5>
+                <h6 style="color: rgb(169, 230, 230);">Malayalam, Tamil, English</h6><br>
+                <h5 style="color: rgb(11, 188, 129);">Reading & Writing</h5>
+                <h6 style="color: rgb(169, 230, 230);">Tamil, English</h6><br>
+                <h3>
+                    <u>Qualification</u>
+                </h3>
+                <h5 style="color: rgb(169, 230, 230);">B.Sc.Physics</h5>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section class="projects">
+        <h2 class="text-white text-center">My projects</h2>
+        <h3 class="text-center">PROJECTS WILL BE HOSTED SOON.......</h3>
+    </section><br>
+    <section id="contactus">
+        <h2 class="text-center text-white ">Contact Form <i style="color: rgb(170, 168, 168);">(Talk To Me)</i></h2>
+        <section class="contactform text-white" data-aos="zoom-in-down" data-aos-duration="2000" id="contactform">
+            <div>
+                <form id="contactForm" method="POST"
+                    action="https://script.google.com/macros/s/AKfycbxUYIIOgEi5BpYLCTHVVCgXkBiTd-Emot3ij4k5aB-jIJZ7FoAypiVU0251cFwiOtLZtg/exec">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    <br>
+                    <label for="mobile">Contact Number:</label>
+                    <input type="tel" id="mobile" name="number" pattern="[0-9]{10}"
+                        placeholder="Enter 10-digit mobile number" required>
+                    <br>
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="mail" placeholder="example@example.com" required>
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Type your message here" rows="4"
+                        required></textarea>
+                    <br>
+                    <div class="text-center">
+                        <button type="submit" id="submitButton">Submit</button>
+                        <div id="successMessage" style="display: none;">
+                            <h4 style="color: #0fb7ff;">Form submitted successfully!</h4>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <section style="margin: 20px;">
+            <div>
+                <h2 class="text-white text text-center">SUBSCRIBE TO MY NEWSLETTER</h2>
+                <div class="text-center">
+                    <form id="subscriptionform" method="POST"
+                        action="https://script.google.com/macros/s/AKfycbwLaplMSmzgNWYcw1JFKMpLam1WBb29ZUGkiA3izySZhsp2nctDRlNf6yYCkeJvwRGxeA/exec">
+                        <div style="display:inline-block;">
+                            <label for="email" style="display: inline-block;">Get the Latest Tech Updates by Subscribing
+                                my Newsletter.....</label>
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email ID" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="subscribe" data-aos="fade-right"
+                                data-aos-duration="2000">Subscribe</button>
+                            <div id="subscriptionSuccessMessage" style="display: none;">
+                                <h4 style="color: #0fb7ff;">Subscribed!!!</h4>
+                            </div>
+                        </div>
+                        <br>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section data-aos="zoom-in" data-aos-duration="2000" class="text-center reachme">
+        <h2 style="color: #0fb7ff;"><u>Follow me on</u></h2>
+        <div class="text-center">
+            <a
+                href="https://www.facebook.com/people/Vivek/pfbid0uzhpNhMczKjGN7SttRJ6U3CjUf2ocYXQhSm1GChyfzUMx4fftSKdWvkbkLCPhgANl/?sfnsn=wiwspwa&mibextid=RUbz1f">
+                <img src="images/facebook.png" class="socialmedia" style="margin: 20px;" height="30px" width="30px"
+                    alt=""></a>
+            <a href="https://www.instagram.com/vivek.v3_"><img src="images/instagram.png" class="socialmedia"
+                    style="margin: 20px;" height="30px" width="30px" alt=""></a>
+            <a href="https://www.twitter.com/vivekv3_"><img src="images/x.png" class="socialmedia" style="margin: 20px;"
+                    height="30px" width="30px" alt=""></a>
+            <a href="https://www.linkedin.com/in/vivek-v-b72a5a2b6"><img src="images/linkedin.png" class="socialmedia"
+                    style="margin: 20px;" height="30px" width="30px" alt=""></a>
+        </div>
+    </section>
+
+    <footer style="background-color: rgb(53, 53, 53);">
+        <div class="text-center text-white">Designed & Developed by Vivek.</div>
+    </footer>
+
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+            fetch('https://script.google.com/macros/s/AKfycbxUYIIOgEi5BpYLCTHVVCgXkBiTd-Emot3ij4k5aB-jIJZ7FoAypiVU0251cFwiOtLZtg/exec', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    console.log('Success', response);
+                    // Hide submit button
+                    document.getElementById('submitButton').style.display = 'none';
+                    // Show success message
+                    document.getElementById('successMessage').style.display = 'block';
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+
+    </script>
+
+    <script>
+        document.getElementById('subscriptionform').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+            fetch('https://script.google.com/macros/s/AKfycbwLaplMSmzgNWYcw1JFKMpLam1WBb29ZUGkiA3izySZhsp2nctDRlNf6yYCkeJvwRGxeA/exec', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    console.log('Success', response);
+                    // Hide subscribe button
+                    document.getElementById('subscribe').style.display = 'none';
+                    // Show success message
+                    document.getElementById('subscriptionSuccessMessage').style.display = 'block';
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+    <!-- AOS initialize -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
+        var i = 0,
+            a = 0,
+            isBackspacing = false,
+            isParagraph = false;
+
+        // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
+        var textArray = [
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed",
+            "Typing Speed"
+        ];
+
+        // Speed (in milliseconds) of typing.
+        var speedForward = 100, //Typing Speed
+            speedWait = 1000, // Wait between typing and backspacing
+            speedBetweenLines = 1000, //Wait between first and second lines
+            speedBackspace = 25; //Backspace Speed
+
+        //Run the loop
+        typeWriter("output", textArray);
+
+        function typeWriter(id, ar) {
+            var element = $("#" + id),
+                aString = ar[a],
+                eHeader = element.children("h3"), //Header element
+                eParagraph = element.children("p"); //Subheader element
+
+            // Determine if animation should be typing or backspacing
+            if (!isBackspacing) {
+
+                // If full string hasn't yet been typed out, continue typing
+                if (i < aString.length) {
+
+                    // If character about to be typed is a pipe, switch to second line and continue.
+                    if (aString.charAt(i) == "|") {
+                        isParagraph = true;
+                        eHeader.removeClass("cursor");
+                        eParagraph.addClass("cursor");
+                        i++;
+                        setTimeout(function () { typeWriter(id, ar); }, speedBetweenLines);
+
+                        // If character isn't a pipe, continue typing.
+                    } else {
+                        // Type header or subheader depending on whether pipe has been detected
+                        if (!isParagraph) {
+                            eHeader.text(eHeader.text() + aString.charAt(i));
+                        } else {
+                            eParagraph.text(eParagraph.text() + aString.charAt(i));
+                        }
+                        i++;
+                        setTimeout(function () { typeWriter(id, ar); }, speedForward);
+                    }
+
+                    // If full string has been typed, switch to backspace mode.
+                } else if (i == aString.length) {
+
+                    isBackspacing = true;
+                    setTimeout(function () { typeWriter(id, ar); }, speedWait);
+
+                }
+
+                // If backspacing is enabled
+            } else {
+
+                // If either the header or the paragraph still has text, continue backspacing
+                if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
+
+                    // If paragraph still has text, continue erasing, otherwise switch to the header.
+                    if (eParagraph.text().length > 0) {
+                        eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
+                    } else if (eHeader.text().length > 0) {
+                        eParagraph.removeClass("cursor");
+                        eHeader.addClass("cursor");
+                        eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
+                    }
+                    setTimeout(function () { typeWriter(id, ar); }, speedBackspace);
+
+                    // If neither head or paragraph still has text, switch to next quote in array and start typing.
+                } else {
+
+                    isBackspacing = false;
+                    i = 0;
+                    isParagraph = false;
+                    a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
+                    setTimeout(function () { typeWriter(id, ar); }, 50);
+
+                }
+            }
+        }
+    </script>
+
+
+    <!--contact form https://script.google.com/macros/s/AKfycbxUYIIOgEi5BpYLCTHVVCgXkBiTd-Emot3ij4k5aB-jIJZ7FoAypiVU0251cFwiOtLZtg/exec -->
+
+    <!--subscribers https://script.google.com/macros/s/AKfycbwLaplMSmzgNWYcw1JFKMpLam1WBb29ZUGkiA3izySZhsp2nctDRlNf6yYCkeJvwRGxeA/exec -->
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
